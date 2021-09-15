@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Страница бронирования</title>
+</head>
+<body>
+        <h2>
+        Данные о заказе:
+        </h2>
+        <p>
+        Регион<br>
+        <select>
+              <option>Ханты-Мансийский АО</option>
+              <option>Тюменский АО</option>
+              <option>Амурский АО</option>
+              <option>Московский АО</option>
+          </select><br>
+        Адрес кемпинга<br>
+        <select>
+            <option>15-5-40</option>
+            <option>13-7-89</option>
+            <option>1-5-64</option>
+            <option>12-2-22</option>
+        </select><br>
+        Дата заселения<br>
+        <input type="datetime-local" id="meeting-time"
+        name="meeting-time" value="2021-09-15T19:30"
+        min="2018-06-07T00:00" max="2018-06-14T00:00"><br>
+        Дата выселения<br>
+        <input type="datetime-local" id="meeting-time"
+        name="meeting-time" value="2021-09-15T19:30"
+        min="2018-06-07T00:00" max="2018-06-14T00:00"><br>
+        Стоимость<br>
+        <input type="text" id="name" value=""><br>
+        </p>
+        <h2>
+        Данные о постояльцах:
+        </h2>
+        <p>
+        Фамилия<br>
+        <input type="text" id="name" value=""><br>
+        Имя<br>
+        <input type="text" id="name" value=""><br>
+        Отчество<br>
+        <input type="text" id="name" value=""><br>
+        Дата рождения<br>
+        <input type="datetime-local" id="meeting-time"
+        name="meeting-time" value="2021-09-15T19:30"
+        min="2018-06-07T00:00" max="2018-06-14T00:00"><br>
+        Номер документа<br>
+        <input type="text" id="name" value=""><br>
+        </p>
+        <h2>
+        Выбор дополнительных услуг:
+        </h2>
+        <p>
+        Медицинское сопровождение<br>
+        <input type="checkbox" id="scales" name="scales"checked><br>
+        Курьерские услуги<br>
+        <input type="checkbox" id="scales" name="scales"checked><br>
+        Питание<br>
+        <input type="checkbox" id="scales" name="scales"checked><br>
+        </p>
+        <label for="kol">Кол-во человек</label><br><input type="number" id="kol" name="kol" min="1" max="10"><br>
+        Итоговая стоимость:<br>
+        6666 руб.<br>
+        <button class="knp" type="button">
+        Оформить
+        </button>
+</body>
+</html>
